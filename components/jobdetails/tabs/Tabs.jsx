@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Text, FlatList, TouchableOpacity } from "react-native";
-
 import styles from "./tabs.style";
 import { SIZES } from "../../../constants";
 
