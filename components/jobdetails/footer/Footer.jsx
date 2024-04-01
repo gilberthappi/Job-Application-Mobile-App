@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Text, Image, Linking } from "react-native";
-
 import styles from "./footer.style";
 import { TouchableOpacity } from "react-native";
 import { icons } from "../../../constants";
