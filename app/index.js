@@ -44,5 +44,4 @@ function Home() {
     </SafeAreaView>
   );
 }
-
 export default Home;
