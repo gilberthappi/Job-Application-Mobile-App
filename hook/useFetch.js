@@ -1,3 +1,4 @@
+require('dotenv').config();
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { RAPID_API_KEY } from "@env";
@@ -11,7 +12,7 @@ const useFetch = (endpoint, query) => {
     method: "GET",
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
     headers: {
-      "X-RapidAPI-Key": RAPID_API_KEY,
+      "X-RapidAPI-Key": process.env.RAPID_API_KEY,
       "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
     },
     params: { ...query },
