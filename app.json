@@ -5,7 +5,7 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "react-native-tutorial",
-    "slug": "react-native-tutorial"
+    "name": "react-native-job-app",
+    "slug": "react-native-job-app"
   }
 }
