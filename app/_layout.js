@@ -22,4 +22,5 @@ function Layout() {
 
   return <Stack onLayout={onLayoutFontView} />;
 }
+
 export default Layout;

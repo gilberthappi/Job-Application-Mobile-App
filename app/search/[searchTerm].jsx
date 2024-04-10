@@ -1,4 +1,3 @@
-require('dotenv').config();
 import React, { useEffect, useState } from "react";
 import {
   ActivityIndicator,
@@ -14,7 +13,7 @@ import axios from "axios";
 import { ScreenHeaderBtn, NearbyJobCard } from "../../components";
 import { COLORS, SIZES, icons } from "../../constants";
 import styles from "../../styles/search";
-// import { RAPID_API_KEY } from "@env";
+import { RAPID_API_KEY } from "@env";
 
 const JobSearch = () => {
   const params = useSearchParams();
@@ -35,7 +34,7 @@ const JobSearch = () => {
         method: "GET",
         url: `https://jsearch.p.rapidapi.com/search`,
         headers: {
-          "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+          "X-RapidAPI-Key": RAPID_API_KEY,
           "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
         },
         params: {

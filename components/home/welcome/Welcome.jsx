@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import {
   View,
   Text,
@@ -23,7 +22,7 @@ const Welcome = ({ searchTerm, setSearchTerm, onHandleSearch }) => {
     <View>
       {/* Name and Intro */}
       <View style={styles.container}>
-        <Text style={styles.userName}>Hello, Emmanuel</Text>
+        <Text style={styles.userName}>Hello, Happi</Text>
         <Text style={styles.welcomeMessage}>Find your perfect jobs here</Text>
       </View>
       {/* Search Input */}

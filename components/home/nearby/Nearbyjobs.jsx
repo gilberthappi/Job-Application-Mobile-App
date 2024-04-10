@@ -1,5 +1,4 @@
 import React from "react";
-
 import { View, Text, ActivityIndicator, FlatList } from "react-native";
 import styles from "./nearbyjobs.style";
 import { useRouter } from "expo-router";

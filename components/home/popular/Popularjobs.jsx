@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, ActivityIndicator, FlatList, TouchableOpacity } from "react-native";
+
 import styles from "./popularjobs.style";
 import { useRouter } from "expo-router";
 import PopularJobCard from "./../../common/cards/popular/PopularJobCard";
